@@ -24,6 +24,6 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QA_LOG_TRACKER }}
           projectId: qa-log-tracker
-   	 entryPoint: .
+   	 entryPoint: ./
 
 
